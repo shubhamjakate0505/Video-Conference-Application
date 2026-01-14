@@ -1,5 +1,5 @@
 import mongoose, { Schema } from "mongoose";
-
+//userScheme
 const userScheme = new Schema(
     {
         name: { type: String, required: true },

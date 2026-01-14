@@ -1,5 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
+//meetingSchema
 
 const meetingSchema = new Schema(
     {

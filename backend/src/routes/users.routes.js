@@ -4,7 +4,7 @@ import { addToHistory, getUserHistory, login, register } from "../controllers/us
 
 
 const router = Router();
-
+//routes
 router.route("/login").post(login)
 router.route("/register").post(register)
 router.route("/add_to_activity").post(addToHistory)
